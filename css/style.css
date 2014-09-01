@@ -83,7 +83,9 @@ div {
 .introduction {
     background-image: url('../img/first-background.jpg');
     background-position: center bottom;
-    height: 506px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 735px;
     overflow: auto;
 }
 .introduction h1,
@@ -93,7 +95,7 @@ div {
     font-weight: 300;
 }
 .introduction h1 {
-    margin-top: 180px;
+    margin-top: 280px;
     font-size: 50px;
 }
 .introduction h3 {
