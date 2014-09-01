@@ -19,7 +19,9 @@ time, mark, audio, video {
     vertical-align: baseline;
     box-sizing: border-box;
 }
-/* HTML5 display-role reset for older browsers */
+/**
+ * HTML5 display-role reset for older browsers
+ */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -30,11 +32,15 @@ body {
 ol, ul {
     list-style: none;
 }
-/* End of Reset */
+/**
+ * End of Reset
+ */
 
-/* Start of Custom Styles */
+/**
+ * Start of Custom Styles
+ */
 body {
-    background-color: LightGray;
+    /*background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -47,7 +53,9 @@ div {
     margin: 0 auto;
 }
 
-/* Navigation Section */
+/**
+ * Navigation Section
+ */
 .top-navigation {
     background-color: #fff;
     position: fixed;
@@ -79,7 +87,9 @@ div {
     color: #333333;
 }
 
-/* Introduction Section */
+/**
+ * Introduction Section
+ */
 .introduction {
     background-image: url('../img/first-background.jpg');
     background-position: center bottom;
@@ -102,7 +112,9 @@ div {
     margin-top: 20px;
     font-size: 25px;
 }
-/* The buttons */
+/**
+ * The buttons
+ */
 .introduction .buttons {
     color: white;
     text-align: center;
@@ -148,7 +160,9 @@ div {
     top: 10px;
 }
 
-/* The Three Case Images */
+/**
+ * The Three Case Images
+ */
 .cases {
     background-color: #fff;
     overflow: hidden;
@@ -182,7 +196,9 @@ div {
     font-size: 21px;
 }
 
-/* Footer */
+/**
+ * Footer
+ */
 .social {
     background-color: #fff;
     overflow: auto;
