@@ -80,7 +80,7 @@ div {
 
 /* Introduction Section */
 .introduction {
-    background-image: url('/img/first-background.jpg');
+    background-image: url('../img/first-background.jpg');
     background-position-y: bottom;
     background-position-x: center;
     height: 506px;
