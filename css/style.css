@@ -17,6 +17,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,19 +30,8 @@ body {
 ol, ul {
     list-style: none;
 }
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
 /* End of Reset */
+
 /* Start of Custom Styles */
 body {
     background-color: LightGray;
@@ -52,7 +42,6 @@ div {
     /*border: 1px solid Chocolate;*/
 }
 .content {
-    box-sizing: border-box;
     padding: 0 15px;
     width: 970px;
     margin: 0 auto;
@@ -61,6 +50,8 @@ div {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
 }
 .top-navigation > .content {
     height: 70px;
@@ -107,7 +98,7 @@ div {
 }
 .introduction h3 {
     margin-top: 20px;
-    font-size: 23px;
+    font-size: 25px;
 }
 /* The buttons */
 .introduction .buttons {
@@ -119,9 +110,7 @@ div {
     width: 49%;
     padding: 0 15px;
     display: inline-block;
-    box-sizing: border-box;
     vertical-align: bottom;
-
     font-size: 18px;
     line-height: 1.2;
 }
@@ -130,6 +119,8 @@ div {
 }
 .half.watch {
     text-align: left;
+    padding: 16px 26px;
+    font-weight: 500;
 }
 .introduction .learn button {
     width: 155px;
@@ -147,11 +138,44 @@ div {
     border-color: #cf3d0e;
     cursor: pointer;
 }
-.introduction .watch {
-    padding: 16px 26px
-}
 .introduction .watch img {
     position: relative;
     top: 10px;
 }
+
+/* The Three Case Images */
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 160px;
+}
+.cases .content {
+    margin-top: 126px;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 44px;
+    margin: 26px 0 50px;
+    font-weight: 300;
+}
+.cases .devices {
+    display: flex;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 40px 0px 30px;
+
+}
+.cases .devices p {
+    font-weight: 300;
+    font-size: 21px;
+}
+
+
 
