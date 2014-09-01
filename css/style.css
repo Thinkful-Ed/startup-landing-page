@@ -82,8 +82,7 @@ div {
 /* Introduction Section */
 .introduction {
     background-image: url('../img/first-background.jpg');
-    background-position-y: bottom;
-    background-position-x: center;
+    background-position: center bottom;
     height: 506px;
     overflow: auto;
 }
