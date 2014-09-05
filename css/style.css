@@ -67,6 +67,7 @@ div {
 }
 .top-navigation .logo {
     height: 70px;
+    clear: right;
 }
 .top-navigation .links {
     float: right;
