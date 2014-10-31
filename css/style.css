@@ -111,32 +111,12 @@ div {
 .introduction h3 {
     margin-top: 20px;
     font-size: 25px;
+    margin-bottom: 50px;
 }
 /**
  * The buttons
  */
-.introduction .buttons {
-    color: white;
-    text-align: center;
-    margin-top: 25px;
-}
-.introduction .half {
-    width: 49%;
-    padding: 0 15px;
-    display: inline-block;
-    vertical-align: bottom;
-    font-size: 18px;
-    line-height: 1.2;
-}
-.half.learn {
-    text-align: right;
-}
-.half.watch {
-    text-align: left;
-    padding: 16px 24px;
-    font-weight: 500;
-}
-.introduction .learn button {
+.big-button {
     width: 155px;
     background-color: #f15a29;
     border-color: #f15a29;
@@ -146,18 +126,16 @@ div {
     padding: 16px 24px;
     color: white;
     font-size: 18px;
+    margin: 0 auto;
+    display: block;
 }
 :focus {
     outline: none;
 }
-.introduction .learn button:hover {
+.big-button:hover {
     background-color: #d9400e;
     border-color: #cf3d0e;
     cursor: pointer;
-}
-.introduction .watch img {
-    position: relative;
-    top: 10px;
 }
 
 /**
