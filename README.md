@@ -6,8 +6,14 @@ This is the starting repository for the FEWD landing page clone - based on the K
 #### Instructions
 
 There are two methods for downloading the contents of this repository:
+  
+##### Option 1 - Download the ZIP file
 
-##### Option 1 - Clone
+- Right Click and "Save as" this zip file containing the Starter files
+- https://github.com/Thinkful/startup-landing-page/blob/master/Archive.zip
+- You will need to uncompress the files
+
+##### Option 2 - Fork and then Clone
 
 1. Press the fork button in the top right of this repository
   - This will copy the repository into your own repository
@@ -15,7 +21,3 @@ There are two methods for downloading the contents of this repository:
   - This can be achieved in your computer's Command Line
   - `git clone <enter the repository url here>`
   - The above command will download the files into a new folder with the same name as your copy of the repository
-  
-##### Option 2 - Download the ZIP file
-
-- TBA
