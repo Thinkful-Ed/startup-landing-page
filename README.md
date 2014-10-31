@@ -10,7 +10,7 @@ There are two methods for downloading the contents of this repository:
 ##### Option 1 - Download the ZIP file
 
 - Right Click and "Save as" this zip file containing the Starter files
-- https://github.com/Thinkful/startup-landing-page/blob/master/Archive.zip
+- https://github.com/Thinkful/startup-landing-page/blob/master/startup-landing-page.zip
 - You will need to uncompress the files
 
 ##### Option 2 - Fork and then Clone
